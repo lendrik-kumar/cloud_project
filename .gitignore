@@ -1,0 +1,19 @@
+# deps / build
+node_modules/
+cdk.out/
+dist/
+*.js.map
+.venv/
+__pycache__/
+.pytest_cache/
+
+# generated config
+web/public/config.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# local scratch: venv, deploy logs, stack outputs
+local/
